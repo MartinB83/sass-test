@@ -1,0 +1,190 @@
+/*######################*/
+/*##### Standards #####*/
+/*######################*/
+
+@import url(http://fonts.googleapis.com/css?family=Hind:300,700)
+
+body, html
+  height: 100%
+  /*zoom: 0.95;*/
+
+body
+  font-family: "Hind" !important
+  font-size: $default
+  background: $black
+
+a
+  color: $brand
+
+h1, h2, h3
+  color: $white
+
+.right
+  text-align: right
+
+#holder
+  min-height: 100%
+  position: relative
+
+#body
+  padding-bottom: 250px
+
+/* necessary to push footer content down */
+#main-wrap
+  min-height: 760px
+
+.box
+  width: 100%
+  min-height: 250px
+  padding-top: 7px
+  padding-bottom: 12px
+  background-color: $transparent-black
+  margin-bottom: 10px
+  -webkit-border-radius: 11px
+  -moz-border-radius: 11px
+  border-radius: 11px
+  color: $white
+  -webkit-box-shadow: 0px 0px 8px 2px $black
+  -moz-box-shadow: 0px 0px 8px 2px $black
+  box-shadow: 0px 0px 8px 2px $black
+
+  h2
+    font-size: $medium
+    padding-bottom: 8px
+    padding-top: 8px
+    border-bottom: 1px solid darken($almostwhite, 50%)
+    margin-top: 5px
+    margin-bottom: 8px
+
+#table-background
+  position: absolute
+  top: 580px
+  height: 248px
+  width: 100%
+  left: 0
+  right: 0
+  bottom: 0
+  background: image-url('holz.jpg')
+  border-top: 2px solid $black
+  border-bottom: 2px solid $black
+  background-position: top center
+  background-repeat: no-repeat
+
+#bottom-background
+  position: absolute
+  top: 832px
+  width: 100%
+  left: 0
+  right: 0
+  bottom: 0
+  background: image-url('footer-background.png') repeat
+  background-position: top center
+
+/*######################*/
+/*##### Top Menue ######*/
+/*######################*/
+
+#top-navigation
+  height: 80px
+  width: 100%
+  padding-top: 10px
+  background-color: $black
+
+.top-navigation-links
+  margin-top: 20px
+  text-align: center
+
+#main-logo
+  height: 50px
+
+#shop-headlines
+  text-shadow: lighten($black,30%) 1px 1px 1px
+  padding-top: 15px
+  margin-bottom: 5px
+  padding-bottom: 5px
+
+  h1
+    font-size: $bigger
+    font-weight: bold
+    letter-spacing: 1px
+
+  h2
+    font-size: $default
+    padding-top: 0px
+    margin-top: 0px
+    padding-bottom: 10px
+
+.nav-link-top
+  margin: 0 auto
+  color: lighten($grey, 30%)
+  text-transform: uppercase
+
+.nav-link-top:hover
+  color: lighten($grey, 60%)
+
+.nav-link-cart
+  color: $almostwhite
+  img
+    padding-right: 7px
+
+/*##############################*/
+/*####### Bottom Content #######*/
+/*##############################*/
+
+#bottom-content
+
+  .example-label
+    float: left
+    padding-right: 10px
+
+  span
+    color: $brand
+  h2
+    color: $white
+    text-align: center
+    font-size: $huge
+    font-weight: bold
+    margin-bottom: 20px
+    margin-top: 20px
+  #main-text
+    background-color: #ffffff
+    color: $black
+    padding: 15px
+
+    h2
+      text-align: left
+      color: $brand
+      font-size: $big
+      margin-bottom: 10px
+
+    h3
+      color: $black
+      font-size: $medium
+      font-weight: bold
+
+#highlight-links img
+  margin-bottom: 15px
+
+#our-beer
+  margin-top: 20px
+  color: $black
+  background: $white
+  .brauprozess
+    margin-top: 10px
+  p
+    padding: 10px
+  h2
+    color: $black
+
+/*######################*/
+/*####### Footer #######*/
+/*######################*/
+
+#footer
+  bottom: 0
+  height: 200px
+  left: 0
+  right: 0
+  position: absolute
+  background: $black
+  color: $grey
